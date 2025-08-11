@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "zod/v3";
 import { parseTupleDef } from "../../src/parsers/tuple";
 import { getRefs } from "../../src/Refs";
 

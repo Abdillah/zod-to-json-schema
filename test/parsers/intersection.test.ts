@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "zod/v3";
 import { parseIntersectionDef } from "../../src/parsers/intersection";
 import { getRefs } from "../../src/Refs";
 

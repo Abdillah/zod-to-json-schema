@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "zod/v3";
 import { parseObjectDef } from "../../src/parsers/object";
 import { getRefs } from "../../src/Refs";
 

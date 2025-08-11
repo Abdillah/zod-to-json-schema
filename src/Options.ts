@@ -1,4 +1,4 @@
-import { ZodSchema } from "zod";
+import { ZodSchema } from "zod/v3";
 
 export type Options<Target extends "jsonSchema7" | "openApi3" = "jsonSchema7"> =
   {

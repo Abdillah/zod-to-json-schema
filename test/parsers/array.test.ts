@@ -1,5 +1,5 @@
 import { JSONSchema7Type } from "json-schema";
-import { z } from "zod";
+import { z } from "zod/v3";
 import { parseArrayDef } from "../../src/parsers/array";
 import { getRefs } from "../../src/Refs";
 import { errorReferences } from "./errorReferences";

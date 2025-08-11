@@ -1,6 +1,6 @@
 import Ajv from "ajv";
 import { JSONSchema7 } from "json-schema";
-import { z } from "zod";
+import { z } from "zod/v3";
 import { zodToJsonSchema } from "../src/zodToJsonSchema";
 const ajv = new Ajv();
 const deref = require("json-schema-deref-sync");

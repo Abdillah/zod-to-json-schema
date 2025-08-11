@@ -17,7 +17,7 @@ Does what it says on the tin; converts [Zod schemas](https://github.com/colinhac
 ### Usage
 
 ```typescript
-import { z } from "zod";
+import { z } from "zod/v3";
 import zodToJsonSchema from "zod-to-json-schema";
 
 const mySchema = z

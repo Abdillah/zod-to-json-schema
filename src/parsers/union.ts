@@ -3,7 +3,7 @@ import {
   ZodLiteralDef,
   ZodTypeAny,
   ZodUnionDef,
-} from "zod";
+} from "zod/v3";
 import { JsonSchema7Type, parseDef } from "../parseDef";
 import { Refs } from "../Refs";
 

@@ -1,5 +1,5 @@
 import { JSONSchema7Type } from "json-schema";
-import { z } from "zod";
+import { z } from "zod/v3";
 import { parseUnionDef } from "../../src/parsers/union";
 import { getRefs } from "../../src/Refs";
 const deref = require("json-schema-deref-sync");
