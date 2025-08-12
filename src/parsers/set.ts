@@ -1,4 +1,4 @@
-import { ZodSetDef } from "zod";
+import { ZodSetDef } from "zod/v3";
 import { ErrorMessages, setResponseValueAndErrors } from "../errorMessages.js";
 import { JsonSchema7Type, parseDef } from "../parseDef.js";
 import { Refs } from "../Refs.js";

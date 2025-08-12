@@ -44,7 +44,7 @@ If you enjoy this package, consider dropping a couple of bucks on my [GitHub Spo
 ### Basic example
 
 ```typescript
-import { z } from "zod";
+import { z } from "zod/v3";
 import { zodToJsonSchema } from "zod-to-json-schema";
 
 const mySchema = z

@@ -1,4 +1,4 @@
-import { ZodFirstPartyTypeKind, ZodTypeDef } from "zod";
+import { ZodFirstPartyTypeKind, ZodTypeDef } from "zod/v3";
 import { JsonSchema7AnyType, parseAnyDef } from "./parsers/any.js";
 import { JsonSchema7ArrayType, parseArrayDef } from "./parsers/array.js";
 import { JsonSchema7BigintType, parseBigintDef } from "./parsers/bigint.js";
